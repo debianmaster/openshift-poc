@@ -60,7 +60,7 @@ NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com,master.hostname.exam
 ```sh
 atomic-openshift-installer install
 atomic-openshift-installer -u install
-ansible -i /root/.config/openshift/hosts  /usr/share/ansible/openshift-ansible/playbook/byo/config.yml
+ansible-playbook -i /root/.config/openshift/hosts  /usr/share/ansible/openshift-ansible/playbook/byo/config.yml
 ```
 
 ### Install vars
