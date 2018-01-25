@@ -48,7 +48,12 @@ docker-storage-setup
 systemctl enable docker
 systemctl restart docker
 ```
-
+### Proxy details in 
+```sh
+HTTP_PROXY="http://myproxy.server.com:8080/"
+HTTPS_PROXY="http://myproxy.server.com:8080/"
+NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com"
+```
 ## Install
 
 ```sh
