@@ -31,13 +31,13 @@ subscription-manager repos \
 subscription-manager repos --enable=rh-gluster-3-client-for-rhel-7-server-rpms
 yum install glusterfs-fuse -y 
   
- yum install wget git net-tools bind-utils iptables-services bridge-utils bash-completion kexec-tools sos psacct
+ yum install wget git net-tools bind-utils iptables-services bridge-utils bash-completion kexec-tools sos psacct -y
 
- yum update
+ yum update -y
  
- yum install atomic
- yum install atomic-openshift-utils
- yum install docker-1.12.6
+ yum install atomic -y
+ yum install atomic-openshift-utils -y 
+ yum install docker-1.12.6 -y
  
 cat <<EOF > /etc/sysconfig/docker-storage-setup
 DEVS=/dev/vdc
