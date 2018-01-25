@@ -68,4 +68,7 @@ openshift_master_default_subdomain=apps.osecloud.com
 openshift_docker_insecure_registries=172.30.0.0/16
 openshift_disable_check=disk_availability,docker_storage,memory_availability
 openshift_no_proxy='.hosts.example.com,some-host.com'
+os_sdn_network_plugin_name='redhat/openshift-ovs-multitenant'
+```
+
 
