@@ -53,7 +53,7 @@ systemctl restart docker
 cat /etc/environment
 HTTP_PROXY="http://myproxy.server.com:8080/"
 HTTPS_PROXY="http://myproxy.server.com:8080/"
-NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com"
+NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com,master.hostname.example.com,10.1.0.0/16,172.30.0.0/16"
 ```
 ## Install
 
@@ -67,5 +67,5 @@ atomic-openshift-installer -u install
 openshift_master_default_subdomain=apps.osecloud.com
 openshift_docker_insecure_registries=172.30.0.0/16
 openshift_disable_check=disk_availability,docker_storage,memory_availability
-NO_PROXY=master.hostname.example.com,10.1.0.0/16,172.30.0.0/16 
+openshift_no_proxy='.hosts.example.com,some-host.com'
 
