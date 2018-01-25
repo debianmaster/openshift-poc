@@ -40,3 +40,9 @@ EOF
 docker-storage-setup           
 systemctl enable docker
 systemctl restart docker
+
+
+## Install
+```sh
+atomic-openshift-installer install
+```
