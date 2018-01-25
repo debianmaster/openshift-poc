@@ -45,6 +45,7 @@ systemctl restart docker
 
 
 ## Install
+
 ```sh
 atomic-openshift-installer install
 ```
