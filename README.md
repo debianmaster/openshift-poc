@@ -6,10 +6,12 @@
 - check ssh access from bastion to all nodes
 - check ports 
 - check storage
-- check subscriptions
 - check selinux
 - check dns  wildcard
 - check RHEL version
+- check subscriptions
+- check proxy config
+- check subnet conflicts
 
 
 ## Host-prep
