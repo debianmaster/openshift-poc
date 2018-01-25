@@ -28,9 +28,11 @@ subscription-manager repos \
     --enable="rhel-7-server-extras-rpms" \
     --enable="rhel-7-server-ose-3.7-rpms" \
     --enable="rhel-7-fast-datapath-rpms"
- 
+subscription-manager repos --enable=rh-gluster-3-client-for-rhel-7-server-rpms
+yum install glusterfs-fuse -y 
+  
  yum install wget git net-tools bind-utils iptables-services bridge-utils bash-completion kexec-tools sos psacct
- 
+
  yum update
  
  yum install atomic
