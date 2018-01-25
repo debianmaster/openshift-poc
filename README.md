@@ -1,3 +1,5 @@
+> The TL;DR  of https://docs.openshift.com/container-platform/3.7/welcome/index.html 
+
 ##  Checklist
 - check time on each machine
 - check ssh access from bastion to all nodes
