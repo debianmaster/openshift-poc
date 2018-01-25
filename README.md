@@ -12,6 +12,7 @@
 - check subscriptions
 - check proxy config
 - check subnet conflicts
+- check master hostname matches with ping from nodes/master
 
 
 ## Host-prep
