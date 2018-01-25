@@ -5,7 +5,7 @@
 - check storage
 - check subscriptions
 - check selinux
-- check dns * wildcard
+- check dns  wildcard
 - check RHEL version
 
 
